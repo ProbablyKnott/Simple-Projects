@@ -1,3 +1,9 @@
+'''
+Written by: Michael Knott
+Date: 12/14/2017
+Github: https://github.com/ProbablyKnott/Simple-Stuff
+Twitter: www.twitter.com/probablyknott
+'''
 
 class calc():
 
