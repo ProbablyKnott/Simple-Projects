@@ -1,4 +1,10 @@
 import random
+'''
+Written by: Michael Knott
+Date: 12/8/2017
+Github: https://github.com/ProbablyKnott/Simple-Stuff
+Twitter: www.twitter.com/probablyknott
+'''
 
 print("This program is an addition game. Pick the right answer to the equation.\n")
 
