@@ -1,5 +1,12 @@
 import random
 
+'''
+Written by: Michael Knott
+Date: 11/21/2017
+Github: https://github.com/ProbablyKnott/Simple-Stuff
+Twitter: www.twitter.com/probablyknott
+'''
+
 def main():
 	print("\nThis program generates a random number from 1 to 100 and allows you to guess what the number is.\nIt also tells you if you were higher or lower until you guess the right number or quit.\n")
 
