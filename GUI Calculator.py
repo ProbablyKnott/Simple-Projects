@@ -1,27 +1,10 @@
 from tkinter import *
-'''
-class calcFunctions():
-	empty = "0.0"
-	num1 = ""
-	num2 = ""
-	answer = ""
-	
-	def __init__ (self):
-		num1 = ""
-		num2 = ""
-		answer = ""
 
-	def concat(num, newNum):
-		num = num1 + newnum
-		return num1
-	
-	def add():
-		sum = int(num1) + int(num2)
-		return str(sum)
-		
-	def clear():
-		num1 = ""
-		num2 = ""
+'''
+Written by: Michael Knott
+Date: 12/14/2017
+Github: https://github.com/ProbablyKnott/Simple-Stuff
+Twitter: www.twitter.com/probablyknott
 '''
 
 whichNum = None
@@ -76,32 +59,6 @@ def buttonOne(whichNum):
 			num2[0] = "."
 		number = "0."
 		screen["text"] = number
-
-	'''
-	count = 0
-	number = ""
-	if whichNum == False:
-		num1.append("7")
-		while count < len(num1):
-			number = number + str(num1[count])
-			count += 1
-	else:
-		num2.append("7")
-		while count < len(num2):
-			number = number + str(num2[count])
-			count += 1
-	screen["text"] = number
-	'''
-
-	'''
-	num1.append("1")
-	count = 0
-	number = ""
-	while count < len(num1):
-		number = number + str(num1[count])
-		count += 1
-	screen["text"] = number
-	'''
 	
 def buttonTwo(whichNum):
 	count = 0
@@ -682,14 +639,7 @@ def root(whichNum, num1, power):
 def clear(num1, num2):
 	global whichNum
 	count = len(num1)-1
-	'''
-	if whichNum == False:
-		while count >= 0:
-			num1.remove(num1[count])
-			count-=1
-		screen["text"] = "0"
-	else:
-	'''
+
 	while count >= 0:
 		num1.remove(num1[count])
 		count-=1
