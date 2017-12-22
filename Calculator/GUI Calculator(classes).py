@@ -1,5 +1,12 @@
 from tkinter import *
 
+'''
+Written by: Michael Knott
+Date: 12/22/2017
+Github: https://github.com/ProbablyKnott/Simple-Stuff
+Twitter: www.twitter.com/probablyknott
+'''
+
 whichNum = None
 operator = []
 num1 = []
