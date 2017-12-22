@@ -158,7 +158,7 @@ def equals():
 	while count < len(answerStr):
 		num1.append(answerStr[count])
 		count += 1
-	print(num1)
+	#print(num1)
 	count = len(num2)-1
 	while count >= 0:
 		num2.remove(num2[count])
