@@ -18,12 +18,6 @@ num2 = []
 #add unit conversion buttons
 #add regular to scientific button
 #Find bug that makes functions give wrong value after multiple functions in a row
-'''
-class screen():
-	def __init__(self, master):
-		self.master = master
-		#self.Frame.__init__(self, master)
-'''
 		
 class buttonGrid():
 	def __init__(self, master):
