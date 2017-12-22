@@ -4,6 +4,7 @@ whichNum = None
 
 #TODO:
 #add squared, root, ! and 1/x button and change name of current root button to squareRoot
+#add positive/negative button
 #add unit conversion buttons
 #add regular to scientific button
 #make each frame a class and make a main tk window class 
